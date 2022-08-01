@@ -6,4 +6,4 @@ Foram utilizados CNN's (Convolutional Neural Networks), LSTM's (Long Short Term 
 
 Os sinais utilizados são gerados apartir de seis gestos de mão que são utilizados em processos de reabilitação motora. A seguir uma imagem que represta os gestos.
 
-https://user-images.githubusercontent.com/76635621/182120286-b042691d-41a7-46e7-a4e4-ab10f56e0023.PNG/
+![grasps_en](https://user-images.githubusercontent.com/76635621/182120286-b042691d-41a7-46e7-a4e4-ab10f56e0023.PNG)
