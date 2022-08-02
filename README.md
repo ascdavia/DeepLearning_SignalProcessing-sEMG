@@ -4,11 +4,11 @@ Sinais biológicos ou biosinais, são sinais provenientes das atividades existen
 
 ![grasps_en](https://user-images.githubusercontent.com/76635621/182120286-b042691d-41a7-46e7-a4e4-ab10f56e0023.PNG)
 
+## :small_blue_diamond: Redes Utilizadas
 
-Neste trabalho, as redes utilizadas foram: 
-    - Convolutional Neural Networks (CNN);
-    - Long Short Term Memory (LSTM);
-    - Ensemble utilizando CNN e LSTM.
+- `Convolutional Neural Networks (CNN)`
+- `Long Short Term Memory (LSTM)`
+- `Ensemble utilizando CNN e LSTM`
 
 
 ## :small_blue_diamond: Códigos
@@ -22,7 +22,6 @@ Neste trabalho, as redes utilizadas foram:
 - `Criação_DF_Movimentos_e_MatrizX.ipynb`: Como os arquivos da base de dados foram separados por movimento e por pessoa, foi necessário juntar eles formando arquivos .csv para cada movimento e um arquivo para juntar todos os movimentos.
 
 - `Plot_dos_Sinais.ipynb`: Plotagem dos sinais para ter uma visualização de como eles são além de comparar entre si os sinais gerados pelo homem e pela mulher.
-
 
 
 ## :small_blue_diamond: Database
