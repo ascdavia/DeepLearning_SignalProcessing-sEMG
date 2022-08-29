@@ -26,7 +26,7 @@ import matplotlib.pyplot as plt
 from pretty_confusion_matrix import pp_matrix
 
 #Import Data
-x1 = pd.read_csv('https://github.com/ascdavia/DeepLearning_SignalProcessing-sEMG/blob/main/Database/sEMG_Basic_Hand_movements_upatras/Database_1/df1_mov_all.csv?raw=true', compression = None)
+x1 = pd.read_csv('https://github.com/ascdavia/DeepLearning_SignalProcessing-sEMG/blob/main/Database/sEMG_Basic_Hand_movements_upatras_csv_files/Database_1/df1_mov_all.csv?raw=true', compression = None)
 x1 = x1.drop(x1.columns[0], axis=1)
 
 #Define Wavelet Transform Function With Reconstruction

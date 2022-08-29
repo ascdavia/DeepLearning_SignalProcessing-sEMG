@@ -24,9 +24,10 @@ from sklearn.metrics import confusion_matrix, recall_score, precision_score
 import seaborn as sns
 import matplotlib.pyplot as plt
 from pretty_confusion_matrix import pp_matrix
+from keras.utils.vis_utils import plot_model
 
 #Import Data
-x1 = pd.read_csv('https://github.com/ascdavia/DeepLearning_SignalProcessing-sEMG/blob/main/Database/sEMG_Basic_Hand_movements_upatras/Database_1/df1_mov_all.csv?raw=true', compression = None)
+x1 = pd.read_csv('https://github.com/ascdavia/DeepLearning_SignalProcessing-sEMG/blob/main/Database/sEMG_Basic_Hand_movements_upatras_csv_files/Database_1/df1_mov_all.csv?raw=true', compression = None)
 x = x1.drop(x1.columns[0], axis=1)
 
 #Reshape
@@ -77,6 +78,8 @@ cnn_model.add(Dropout(0.2))
 cnn_model.add(Flatten())
 cnn_model.add(Dense(n_classes, activation='softmax'))
 cnn_model.compile(loss='sparse_categorical_crossentropy', optimizer=opt, metrics=['accuracy'])
+
+plot_model(cnn_model, to_file='model.png')
 
 #Fit CNN Model
 history_cnn = cnn_model.fit(x_train, y_train, epochs=epochs, batch_size=batch_size, verbose=True, validation_data=(x_val, y_val))
