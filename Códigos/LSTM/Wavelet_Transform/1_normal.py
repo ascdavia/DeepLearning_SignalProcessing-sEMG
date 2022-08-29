@@ -70,6 +70,7 @@ lstm_model.add(Dense(n_classes, activation='softmax'))
 #lstm_model.add(Dropout(0.2))
 lstm_model.compile(loss='sparse_categorical_crossentropy', optimizer=opt, metrics=['accuracy'])
 
+
 #Fit LSTM Model
 
 lstm_model.fit(x_train, y_train,
