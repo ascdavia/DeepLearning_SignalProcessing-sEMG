@@ -13,11 +13,11 @@ Sinais biológicos ou biosinais, são sinais provenientes das atividades existen
 
 ## :small_blue_diamond: Códigos
 
-- `2_Layers_Conv1D`: Diferentes pré-pocessamento de dados aplicados em uma rede com duas camadas convolucionais. 
+- `CNN`: Testes utilizando CNN.
 
-- `4_Layers_Conv1D`: Diferentes pré-pocessamento de dados aplicados em uma rede com quatro camadas convolucionais. 
+- `Ensemble`: Testes utilizando o ensemble das redes CNN e LSTM.
 
-- `Wavelet_Transform`: Utilização da Transformada de Wavelet como pré-pocessamento de dados aplicados em quatro redes diferentes, os quais são: CNN, LSTM, CNN+LSTM e CNN+LSTM Multscale. 
+- `LSTM`: Testes utilizando LSTM.
 
 - `Criação_DF_Movimentos_e_MatrizX.ipynb`: Como os arquivos da base de dados foram separados por movimento e por pessoa, foi necessário juntar eles formando arquivos .csv para cada movimento e um arquivo para juntar todos os movimentos.
 
